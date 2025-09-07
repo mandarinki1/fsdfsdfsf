@@ -34,3 +34,69 @@
         <a>@m4raku1ax on twitch</a>
     </footer>
 </html>
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+body{
+    font-family: "Pixelify Sans", sans-serif;
+}
+*{
+    margin:0px;
+    padding:0px;
+}
+header{
+    background-color:#FFFFDF;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.link_btn{
+    color: black;
+    font-size: 24px;
+    text-decoration:none ;
+    background-color:#E9E9E9 ;
+    padding: 10px 42px;
+    border-radius: 5px;
+   /* height: 156px; */
+   text-align: center;
+   margin-bottom:200px;
+}
+.header_link{
+color:black;
+text-decoration: none;
+font-size:24px ;
+}
+body{
+    background-color: #FFFFEB;
+}
+main{
+    text-align: center;
+    font-size: 32px;
+}
+.card img{
+    display: block;
+    width: 280px ;
+    height: 180px;
+     background-color: #FFFFDF;
+    padding: 15px;
+    border-radius: 25px;
+    margin: 0 auto 10px;
+}
+
+main p {
+    text-decoration: underline;
+    padding-bottom: 75px;  
+}
+.card a {
+    text-decoration: none;
+    background-color:lightgray;
+    padding: 15px;
+    border-radius: 25px;
+    display: inline-block;
+   
+}
+.card {
+    display: inline-block;
+    text-align: center;
+    margin:20px
+}
+
